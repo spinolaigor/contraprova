@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "edition": "2026-10-24",
+  "metodologia": "Checagens atribuídas; não auditadas independentemente",
+  "total": 18,
+  "registros": [
+    {
+      "id": "CP-001",
+      "afirmacao": "Herdou seis mil obras interrompidas.",
+      "autor": "Lula",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "SUBESTIMADO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "SUBESTIMADO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-001"
+    },
+    {
+      "id": "CP-002",
+      "afirmacao": "Há mais de 11,5 mil obras paradas nesta gestão.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "FALTA CONTEXTO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "FALSO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-002"
+    },
+    {
+      "id": "CP-003",
+      "afirmacao": "A fome teria terminado no Brasil em 2012.",
+      "autor": "Lula",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "EXAGERADO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "EXAGERADO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-003"
+    },
+    {
+      "id": "CP-004",
+      "afirmacao": "Ao reassumir, havia 33 milhões de pessoas com fome.",
+      "autor": "Lula",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-004"
+    },
+    {
+      "id": "CP-005",
+      "afirmacao": "Bolsonaro elevou o benefício social para seiscentos reais.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "EXAGERADO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "ENGANOSO"
+        },
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "EXAGERADO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-005"
+    },
+    {
+      "id": "CP-006",
+      "afirmacao": "O governo Bolsonaro fez o marco do saneamento.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "VERDADEIRO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-006"
+    },
+    {
+      "id": "CP-007",
+      "afirmacao": "A gestão deixa dívida próxima de onze trilhões.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "FALTA CONTEXTO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-007"
+    },
+    {
+      "id": "CP-008",
+      "afirmacao": "Após 2010, crescimento acima de 3% só retornou com ele.",
+      "autor": "Lula",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "FALSO"
+        },
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "FALSO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-008"
+    },
+    {
+      "id": "CP-009",
+      "afirmacao": "Em 2022, projetava-se juro de 7% para hoje.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "FALTA CONTEXTO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "ENGANOSO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-009"
+    },
+    {
+      "id": "CP-010",
+      "afirmacao": "Bolsonaro finalizou a transposição e levou água ao Nordeste.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "EXAGERADO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "ENGANOSO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-010"
+    },
+    {
+      "id": "CP-011",
+      "afirmacao": "As vendas brasileiras ao exterior atingiram recorde.",
+      "autor": "Lula",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-011"
+    },
+    {
+      "id": "CP-012",
+      "afirmacao": "Foram instalados mais de 21,3 mil pontos de internet.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "verificacoes": [
+        {
+          "fonte": "UOL Confere",
+          "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-012"
+    },
+    {
+      "id": "CP-013",
+      "afirmacao": "O PIB avançou 7,5% em 2010.",
+      "autor": "Lula",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-013"
+    },
+    {
+      "id": "CP-014",
+      "afirmacao": "Seu governo instituiu o MEI.",
+      "autor": "Lula",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-014"
+    },
+    {
+      "id": "CP-015",
+      "afirmacao": "Flávio foi o único contrário à licença-maternidade ampliada.",
+      "autor": "Lula",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "VERDADEIRO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-015"
+    },
+    {
+      "id": "CP-016",
+      "afirmacao": "Lula e Janja gastaram sete bilhões em viagens.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "FALSO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-016"
+    },
+    {
+      "id": "CP-017",
+      "afirmacao": "Líderes de facções cumprirão até oitenta anos presos.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "FALTA CONTEXTO"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-017"
+    },
+    {
+      "id": "CP-018",
+      "afirmacao": "O governo solta criminosos perigosos por falta de vagas.",
+      "autor": "Flávio Bolsonaro",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "verificacoes": [
+        {
+          "fonte": "Agência Lupa",
+          "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+          "veredito_original": "FALSO"
+        },
+        {
+          "fonte": "Aos Fatos",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "veredito_original": "sem selo formal recuperado"
+        }
+      ],
+      "estado": "checagem_jornalistica_atribuida",
+      "revisao_independente": false,
+      "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-018"
+    }
+  ]
+}
