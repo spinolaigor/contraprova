@@ -8,7 +8,7 @@
 - **18 pendentes de revisão, zero aprovados, zero vereditos no dashboard.**
 - Todas as frases são paráfrases; a conferência audiovisual e a minutagem permanecem pendentes. Não foram inventadas transcrições.
 
-[Dossiês para revisão humana](DOSSIES_REVISAO_2026-10-24.md) · [Relatório de entrega](RELATORIO_ENTREGA_2026-10-24.md).
+[Dossiês para revisão humana](https://github.com/spinolaigor/contraprova/blob/main/docs/DOSSIES_REVISAO_2026-10-24.md) · [Relatório de entrega](RELATORIO_ENTREGA_2026-10-24.md).
 
 ## Estado técnico comprovado
 
@@ -22,6 +22,7 @@ Base da sessão: `506735e2fe41eaad2a7f3e7976f47c76d12556f5`, branch `main`.
 - A geração local preservou `data/publicados.json` sem alterações: total zero.
 - 18 testes Python passaram; JSON, sintaxe JavaScript e links locais do pacote conferidos.
 - Prévia local no navegador remoto indisponível: a conexão a localhost respondeu exigência de token, não o site. A verificação visual da nova versão deve usar o endereço publicado após o deploy.
+- QA publicada: dashboard e guia abriram após deploy, navegação painel → guia conferida e estado zero confirmado. Layout desktop inspecionado por captura visual. A tentativa de teste por zoom não alterou o viewport; não foi contada como QA mobile.
 - Limite de QA mobile: CSS responsivo e grades estreitas revisados; não houve teste em aparelho físico nem emulação de viewport nesta sessão.
 
 ## Pesquisa e limites
@@ -35,3 +36,13 @@ Diferenças de categorias foram preservadas por veículo e ocorrência. Detectad
 ## Encerramento
 
 Congelada a expansão de funcionalidades. O guia de fontes é a entrega pública utilizável agora. O dashboard permanece sem vereditos até decisão humana explícita por ID e ocorrência. Não há autorização editorial inferida da aprovação de código ou de um deploy.
+
+## Validação remota da edição 0.7.0
+
+Commit de implementação: [`74aa1e2bb2ddf73e6531463fbf23c8b73b89454c`](https://github.com/spinolaigor/contraprova/commit/74aa1e2bb2ddf73e6531463fbf23c8b73b89454c).
+
+- [Qualidade do projeto — sucesso](https://github.com/spinolaigor/contraprova/actions/runs/40107063761).
+- [Validar base pública — sucesso](https://github.com/spinolaigor/contraprova/actions/runs/40107063706).
+- [Pages, validação e publicação — sucesso](https://github.com/spinolaigor/contraprova/actions/runs/40107063710).
+- A árvore enviada (`171e43d255d93e8f10e0e1d45dbe916d2cc24981`) é idêntica à árvore testada localmente.
+- Site atualizado e guia confirmados no navegador após deploy. Base pública continua com total zero. Este adendo registra a execução já observada; alterações posteriores de documentação passam novamente pelo workflow Pages.

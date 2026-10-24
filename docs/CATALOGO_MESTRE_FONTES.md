@@ -1,6 +1,6 @@
 # Catálogo de fontes — edição de 24/10/2026
 
-O catálogo executável desta edição está em [`data/auditoria/fontes_consultadas.json`](../data/auditoria/fontes_consultadas.json), com autores, datas, URLs exatas, método e limitações de acesso. O [guia público](../fontes.html) contém cinco artigos originais consultados, de três verificadores.
+O catálogo executável desta edição está em [`data/auditoria/fontes_consultadas.json`](https://github.com/spinolaigor/contraprova/blob/main/data/auditoria/fontes_consultadas.json), com autores, datas, URLs exatas, método e limitações de acesso. O [guia público](../fontes.html) contém cinco artigos originais consultados, de três verificadores.
 
 | Artigo | Origem | Data do evento |
 |---|---|---|

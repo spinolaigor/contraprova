@@ -7,7 +7,7 @@
 - Refinados layout estreito, teclado, toque, estados vazios, compartilhamento e data fixa da edição. Rótulos distintos deixam de ser apresentados automaticamente como divergência factual.
 - Pages passa a depender de validação no mesmo workflow e a empacotar somente arquivos públicos; incluído gatilho para fontes.html. Fila de revisão permanece no GitHub.
 - Exportador exige booleano literal nas aprovações; ampliada cobertura para 18 testes. Base publicada continua vazia e inalterada.
-- Atualizados README, contratos, catálogo, política de reutilização e relatórios de entrega/estado. Validação remota documentada após envio.
+- Atualizados README, contratos, catálogo, política de reutilização e relatórios de entrega/estado. Os três workflows da implementação 74aa1e2 passaram; dashboard e guia confirmados no navegador após deploy.
 
 ## [0.6.0] — 2026-10-24 — Preparação para fechamento eleitoral
 - Criado `WORK.md` com instruções operacionais para auditoria assistida pelo ChatGPT Work.

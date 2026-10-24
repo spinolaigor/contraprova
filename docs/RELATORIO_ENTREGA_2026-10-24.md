@@ -2,7 +2,7 @@
 
 ## Entregue
 
-Pesquisa estruturada de 18 afirmações distintas, com cinco artigos originais, classificação literal quando recuperada, autorias, datas, evidências, divergências e limitações. [Leia os dossiês](DOSSIES_REVISAO_2026-10-24.md). Dados em `data/auditoria/dossies.json`; catálogo e acesso em `fontes_consultadas.json`. As entradas correspondentes em `registros.json` permanecem `em_auditoria`, com `revisao.aprovado=false`.
+Pesquisa estruturada de 18 afirmações distintas, com cinco artigos originais, classificação literal quando recuperada, autorias, datas, evidências, divergências e limitações. [Leia os dossiês](https://github.com/spinolaigor/contraprova/blob/main/docs/DOSSIES_REVISAO_2026-10-24.md). Dados em `data/auditoria/dossies.json`; catálogo e acesso em `fontes_consultadas.json`. As entradas correspondentes em `registros.json` permanecem `em_auditoria`, com `revisao.aprovado=false`.
 
 | Recorte | Afirmações selecionadas presentes no evento |
 |---|---:|
@@ -42,9 +42,9 @@ O Pages agora aguarda testes e integridade da base. O artefato não leva a fila 
 
 ## Validação
 
-18 testes passaram, incluindo exclusão de pendentes, vínculos entre fontes/ocorrências, exigência de aprovação explícita e isolamento do pacote Pages. Exportador executado sem alteração da base pública. Todos os JSON foram analisados; sintaxe JavaScript e links internos do pacote passaram. Estado da publicação remota registrado separadamente após o envio.
+18 testes passaram, incluindo exclusão de pendentes, vínculos entre fontes/ocorrências, exigência de aprovação explícita e isolamento do pacote Pages. Exportador executado sem alteração da base pública. Todos os JSON foram analisados; sintaxe JavaScript e links internos do pacote passaram. Os três workflows da implementação `74aa1e2` terminaram com sucesso; links no documento de estado. Dashboard e guia atualizados foram conferidos no navegador após o deploy.
 
-QA visual inicial confirmou o site anterior. A prévia local remota não pôde abrir por exigência de token. CSS mobile revisado; aparelho físico e emulação de viewport não testados. Não interpretar essas verificações como auditoria audiovisual ou editorial concluída.
+QA visual inicial confirmou o site anterior; após o deploy, a nova versão do guia foi inspecionada por captura visual e a navegação a partir do painel foi conferida. A prévia local remota não pôde abrir por exigência de token. CSS mobile revisado; aparelho físico e emulação de viewport não testados. Não interpretar essas verificações como auditoria audiovisual ou editorial concluída.
 
 ## Sua decisão necessária
 
