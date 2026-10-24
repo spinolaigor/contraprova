@@ -17,7 +17,7 @@
 'use strict';
 let registros=[];
 const $=id=>document.getElementById(id);
-const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+const esc=x=>String(x??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]||'&#39;'));
 const url=x=>{try{const u=new URL(x);return u.protocol==='https:'?u.href:null}catch{return null}};
 const unique=a=>[...new Set(a)];
 function render(){
