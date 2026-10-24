@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-24",
+  "validation_status": "urls_a_validar_individualmente",
+  "nota": "Lista de partida. URLs não equivalem a verificações aprovadas.",
+  "fontes": [
+    {
+      "id": "globo-aosfatos",
+      "evento": "Globo 23/10/2026",
+      "veiculo": "Aos Fatos",
+      "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+      "prioridade": 1
+    },
+    {
+      "id": "globo-uol",
+      "evento": "Globo 23/10/2026",
+      "veiculo": "UOL Confere",
+      "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.amp.htm",
+      "prioridade": 1
+    },
+    {
+      "id": "globo-folha-lupa",
+      "evento": "Globo 23/10/2026",
+      "veiculo": "Folha / Agência Lupa",
+      "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-e-lula-citam-informacoes-falsas-exageradas-e-fora-de-contexto-no-debate-da-globo.shtml",
+      "prioridade": 1
+    },
+    {
+      "id": "band-aosfatos",
+      "evento": "Band 18/10/2026",
+      "veiculo": "Aos Fatos",
+      "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+      "prioridade": 1
+    }
+  ],
+  "fontes_primarias": [
+    {
+      "nome": "TSE",
+      "url": "https://www.tse.jus.br/"
+    },
+    {
+      "nome": "IBGE",
+      "url": "https://www.ibge.gov.br/"
+    },
+    {
+      "nome": "Banco Central",
+      "url": "https://www.bcb.gov.br/"
+    },
+    {
+      "nome": "Tesouro Transparente",
+      "url": "https://www.tesourotransparente.gov.br/"
+    },
+    {
+      "nome": "TCU",
+      "url": "https://portal.tcu.gov.br/"
+    }
+  ]
+}
