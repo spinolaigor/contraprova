@@ -26,3 +26,16 @@ Atualizado em 2026-10-24.
 
 ## Próxima entrega
 Importar o restante da aplicação v0.3, testar a coleta em ambiente real, corrigir falhas de workflow e ampliar indicadores sem sacrificar rastreabilidade.
+
+
+## Atualização de engenharia — 2026-10-24
+
+Após pesquisa das alternativas, mantemos site estático + GitHub Actions em vez de adotar backend persistente prematuramente.
+
+Novos componentes no repositório:
+- `scripts/extrair_feed.py`: parser offline de RSS/Atom, URL canônica, remoção de parâmetros de rastreamento e IDs estáveis.
+- `scripts/extrair_claimreview.py`: parser offline de JSON-LD ClaimReview, com preservação de veredito original e status `pending_review`.
+- `tests/test_feed.py` e `tests/test_claimreview.py`: dez casos de teste adicionados.
+- `docs/DECISAO_ARQUITETURAL_005.md`: registro das alternativas e justificativas.
+
+**Ainda não conectado ao monitoramento:** os novos parsers são módulos isolados e testáveis; a integração de rede, validação de feeds reais e fila de revisão persistente serão feitas após conferir resultados do CI. Não alegar descoberta automática ampla ou aumento de registros auditados neste momento.
