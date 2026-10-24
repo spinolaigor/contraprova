@@ -1,0 +1,27 @@
+name: Validar base pública
+on:
+  push:
+    paths:
+      - 'scripts/gerar_publicados.py'
+      - 'data/auditoria/**'
+      - 'data/publicados.json'
+      - 'tests/test_publicacao.py'
+      - '.github/workflows/validar-publicacao.yml'
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testar regras de publicação
+        run: python -m unittest discover -s tests -p 'test_publicacao.py' -v
+      - name: Regerar e conferir saída pública
+        run: |
+          python scripts/gerar_publicados.py
+          git diff --exit-code -- data/publicados.json
