@@ -10,10 +10,11 @@ def preparar(destino):
     if destino.exists():
         shutil.rmtree(destino)
     destino.mkdir(parents=True)
-    for arquivo in ('index.html', 'fontes.html', '.nojekyll'):
+    for arquivo in ('index.html', 'fontes.html', 'checagens.html', '.nojekyll'):
         shutil.copy2(ROOT / arquivo, destino / arquivo)
     (destino / 'data').mkdir()
     shutil.copy2(ROOT / 'data/publicados.json', destino / 'data/publicados.json')
+    shutil.copy2(ROOT / 'data/checagens_atribuidas.json', destino / 'data/checagens_atribuidas.json')
     shutil.copy2(ROOT / 'data/README.md', destino / 'data/README.md')
     for pasta in ('docs',):
         shutil.copytree(ROOT / pasta, destino / pasta, ignore=shutil.ignore_patterns('DOSSIES_*'))
