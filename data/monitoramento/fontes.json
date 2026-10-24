@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.4.0",
+  "sources": [
+    {
+      "id": "lupa-debate-globo",
+      "name": "Agência Lupa",
+      "type": "checagem_jornalistica",
+      "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+      "enabled": true
+    },
+    {
+      "id": "aosfatos-debate-globo",
+      "name": "Aos Fatos",
+      "type": "checagem_jornalistica",
+      "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+      "enabled": true
+    },
+    {
+      "id": "uol-confere-globo",
+      "name": "UOL Confere",
+      "type": "checagem_jornalistica",
+      "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+      "enabled": true
+    }
+  ],
+  "note": "URLs candidatas, acesso e conteúdo não verificados em ambiente real; coleta apenas metadados."
+}
