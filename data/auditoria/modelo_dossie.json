@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "nota": "Modelo ilustrativo de campos. NÃO é uma afirmação real nem deve entrar em registros.json.",
+  "claim_id": "EXEMPLO-NAO-PUBLICAR",
+  "debate": null,
+  "candidato": null,
+  "trecho_literal": null,
+  "parafrase": null,
+  "tempo_video": null,
+  "checagens": [],
+  "fontes_primarias": [],
+  "conclusao_auditoria": null,
+  "status": "pendente",
+  "revisor": null,
+  "revisado_em": null,
+  "limites": []
+}
