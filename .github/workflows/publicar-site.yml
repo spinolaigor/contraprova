@@ -5,6 +5,8 @@ on:
     paths:
       - 'index.html'
       - 'fontes.html'
+      - 'checagens.html'
+      - 'data/checagens_atribuidas.json'
       - 'data/publicados.json'
       - 'data/auditoria/**'
       - 'docs/**'
