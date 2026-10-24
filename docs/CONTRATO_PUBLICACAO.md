@@ -12,8 +12,8 @@
 - `data`: data do debate.
 - `status`: exatamente `publicado`.
 - `demonstrativo`: exatamente `false`.
-- `verificacoes`: lista não vazia; cada item com `fonte`, `url` HTTPS, `veredito`, `data`. Se `tipo=automatizada`, deve haver `revisao_humana`.
-- `revisao`: objeto com `aprovado=true`, `data` e `responsavel` não vazios.
+- `verificacoes`: lista não vazia; cada item com `fonte`, `url` HTTPS, `veredito`, `data`. Se `tipo=automatizada`, deve haver `revisao_humana=true` (booleano JSON literal).
+- `revisao`: objeto com `aprovado=true` (booleano JSON literal), `data` e `responsavel` não vazios.
 
 Registros pendentes podem existir na lista com `status` diferente de `publicado`, mas precisam ter `id` único.
 
@@ -28,3 +28,7 @@ Registros pendentes podem existir na lista com `status` diferente de `publicado`
 **O Work não pode preencher `revisao.aprovado=true` por conta própria.** Quando não houver aprovação humana, deixar o registro pendente e entregar o dossiê para revisão.
 
 Este documento registra o contrato existente do código; não altera a política editorial.
+
+## Fila de pesquisa desta edição
+
+`data/auditoria/dossies.json` guarda os dossiês e as ocorrências. `registros.json` contém somente entradas pendentes com vínculo ao dossiê. A aprovação deve citar o ID e a ocorrência: uma decisão sobre a Band não autoriza automaticamente um julgamento sobre a Globo. O responsável pode usar identificador editorial sem expor nome pessoal no site. Os testes não autenticam quem aprovou; o histórico da decisão humana deve ser preservado no GitHub antes de mudar o estado.

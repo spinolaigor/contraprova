@@ -4,8 +4,12 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'fontes.html'
       - 'data/publicados.json'
+      - 'data/auditoria/**'
       - 'docs/**'
+      - 'scripts/**'
+      - 'tests/**'
       - '.github/workflows/publicar-site.yml'
   workflow_dispatch:
 permissions:
@@ -16,7 +20,25 @@ concurrency:
   group: github-pages
   cancel-in-progress: true
 jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar pesquisa, publicação e empacotamento
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python scripts/gerar_publicados.py
+          git diff --exit-code -- data/publicados.json
+      - name: Preparar somente arquivos públicos
+        run: python scripts/preparar_site.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
   publicar:
+    needs: validar
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -26,8 +48,5 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
       - id: deployment
         uses: actions/deploy-pages@v4

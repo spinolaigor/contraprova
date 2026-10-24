@@ -28,7 +28,7 @@ def exportar(registros):
         if item.get("demonstrativo") is not False:
             raise ValueError(f"{uid}: registro demonstrativo não publicável")
         revisao = item["revisao"]
-        if not isinstance(revisao, dict) or not revisao.get("aprovado") or not revisao.get("data") or not revisao.get("responsavel"):
+        if not isinstance(revisao, dict) or revisao.get("aprovado") is not True or not revisao.get("data") or not revisao.get("responsavel"):
             raise ValueError(f"{uid}: revisão humana incompleta")
         verificacoes = item["verificacoes"]
         if not isinstance(verificacoes, list) or not verificacoes:
@@ -38,7 +38,7 @@ def exportar(registros):
                 raise ValueError(f"{uid}: verificação sem origem ou veredito")
             if not str(v["url"]).startswith("https://"):
                 raise ValueError(f"{uid}: URL de verificação inválida")
-            if v.get("tipo") == "automatizada" and not v.get("revisao_humana"):
+            if v.get("tipo") == "automatizada" and v.get("revisao_humana") is not True:
                 raise ValueError(f"{uid}: veredito exclusivamente automatizado")
         saida.append(item)
     return {"schema_version": 1, "politica": "Somente registros auditados e aprovados", "total": len(saida), "registros": saida}

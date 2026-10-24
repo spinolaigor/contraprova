@@ -1,1 +1,272 @@
-[]
+[
+  {
+    "id": "CP-001",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Herdou seis mil obras interrompidas.",
+    "autor": "Lula",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-001",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-002",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Há mais de 11,5 mil obras paradas nesta gestão.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-002",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-003",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "A fome teria terminado no Brasil em 2012.",
+    "autor": "Lula",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-003",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-004",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Ao reassumir, havia 33 milhões de pessoas com fome.",
+    "autor": "Lula",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-004",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-005",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Bolsonaro elevou o benefício social para seiscentos reais.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-005",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-006",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "O governo Bolsonaro fez o marco do saneamento.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-006",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-007",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "A gestão deixa dívida próxima de onze trilhões.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-007",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-008",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Após 2010, crescimento acima de 3% só retornou com ele.",
+    "autor": "Lula",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-008",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-009",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Em 2022, projetava-se juro de 7% para hoje.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-009",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-010",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Bolsonaro finalizou a transposição e levou água ao Nordeste.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-010",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-011",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "As vendas brasileiras ao exterior atingiram recorde.",
+    "autor": "Lula",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-011",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-012",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Foram instalados mais de 21,3 mil pontos de internet.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Globo 23/10/2026",
+    "data": "2026-10-23",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-012",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-013",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "O PIB avançou 7,5% em 2010.",
+    "autor": "Lula",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-013",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-014",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Seu governo instituiu o MEI.",
+    "autor": "Lula",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-014",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-015",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Flávio foi o único contrário à licença-maternidade ampliada.",
+    "autor": "Lula",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-015",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-016",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Lula e Janja gastaram sete bilhões em viagens.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-016",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-017",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "Líderes de facções cumprirão até oitenta anos presos.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-017",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  },
+  {
+    "id": "CP-018",
+    "status": "em_auditoria",
+    "demonstrativo": false,
+    "afirmacao": "O governo solta criminosos perigosos por falta de vagas.",
+    "autor": "Flávio Bolsonaro",
+    "evento": "Band 18/10/2026",
+    "data": "2026-10-18",
+    "dossie": "docs/DOSSIES_REVISAO_2026-10-24.md#cp-018",
+    "revisao": {
+      "aprovado": false,
+      "data": null,
+      "responsavel": null
+    }
+  }
+]

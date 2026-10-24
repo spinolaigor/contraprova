@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-24",
+  "fontes": [
+    {
+      "veiculo": "Agência Lupa",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "atualizado_em": "2026-10-24T02:28:00-03:00",
+      "autores": [
+        "Equipe Lupa"
+      ],
+      "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+      "id": "LG",
+      "consultado_em": "2026-10-24",
+      "validacao": "conteudo_e_evento_conferidos",
+      "metodo_acesso": "leitura_web",
+      "republicacao_de": null
+    },
+    {
+      "veiculo": "Agência Lupa",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "atualizado_em": "2026-10-19T01:27:00-03:00",
+      "autores": [
+        "Equipe Lupa"
+      ],
+      "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+      "id": "LB",
+      "consultado_em": "2026-10-24",
+      "validacao": "conteudo_e_evento_conferidos",
+      "metodo_acesso": "leitura_web",
+      "republicacao_de": null
+    },
+    {
+      "veiculo": "UOL Confere",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-24",
+      "atualizado_em": "2026-10-24T11:28:00-03:00",
+      "autores": [
+        "Isabela Aleixo",
+        "Raquel Tiemi",
+        "Wanderley Preite Sobrinho",
+        "Jullie Pereira",
+        "Leonardo Rodrigues",
+        "Ricardo Espina"
+      ],
+      "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+      "id": "UG",
+      "consultado_em": "2026-10-24",
+      "validacao": "conteudo_e_evento_conferidos",
+      "metodo_acesso": "leitura_web",
+      "republicacao_de": null,
+      "correcoes_observadas": "Errata: presidente argentino em 2023 era Alberto Fernández; Sergio Massa era ministro. Não extrapolar a errata a outros itens."
+    },
+    {
+      "veiculo": "Aos Fatos",
+      "evento": "Globo 23/10/2026",
+      "data": "2026-10-23",
+      "atualizado_em": null,
+      "autores": [
+        "Bianca Bortolon",
+        "Luiza Vezzá",
+        "Luiz Fernando Menezes"
+      ],
+      "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+      "id": "AG",
+      "consultado_em": "2026-10-24",
+      "validacao": "conteudo_e_evento_conferidos",
+      "metodo_acesso": "leitura_web",
+      "republicacao_de": null,
+      "limite_acesso": "Resumo acessível; corpo completo da transcrição não retornou na leitura desta sessão. Sem inferir selos a partir do resumo."
+    },
+    {
+      "veiculo": "Aos Fatos",
+      "evento": "Band 18/10/2026",
+      "data": "2026-10-18",
+      "atualizado_em": null,
+      "autores": [
+        "Bianca Bortolon",
+        "Luiz Fernando Menezes",
+        "Luiza Vezzá"
+      ],
+      "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+      "id": "AB",
+      "consultado_em": "2026-10-24",
+      "validacao": "conteudo_e_evento_conferidos",
+      "metodo_acesso": "leitura_web",
+      "republicacao_de": null,
+      "limite_acesso": "Transcrição textual e justificativas acessíveis; não conferir áudio nem inferir selo formal ausente."
+    }
+  ],
+  "evidencias": [
+    {
+      "id": "TCU",
+      "orgao": "TCU",
+      "url": "https://paineis.tcu.gov.br/ObrasParalisadas",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "painel_sem_dados_extraiveis",
+      "localizador": "Painel de Obras Paralisadas",
+      "observacao": "Redirecionamento observado para aplicação do TCU; tabela histórica não extraída. Abrir a página não confirma 4.215 ou 8.603.",
+      "primaria": true
+    },
+    {
+      "id": "TCU2025",
+      "orgao": "TCU",
+      "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "localizado_em_busca",
+      "localizador": "Notícia de 30/07/2025",
+      "observacao": "Referência histórica localizada; não confundir data de publicação com competência do painel.",
+      "primaria": true
+    },
+    {
+      "id": "MDS2014",
+      "orgao": "MDS / compilação FAO",
+      "url": "https://www.mds.gov.br/webarquivos/acesso_informacao/institucional/gabinete-da-ministra/apresentacoes/201409_Brasil%20fora%20do%20mapa%20da%20fome%20%20-%20ingles.pdf",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "PDF, páginas 3–5 (numeração do arquivo)",
+      "observacao": "Apresentação governamental de 2014 informa 3,4 milhões de subnutridos em 2013. Não é o relatório original da FAO nem medida de insegurança alimentar grave.",
+      "primaria": true
+    },
+    {
+      "id": "PENSSAN",
+      "orgao": "Rede PENSSAN",
+      "url": "https://redepenssan.org.br/uma-em-cada-cinco-familias-chefiadas-por-pessoas-autodeclaradas-pardas-ou-pretas-sofre-com-a-fome-no-brasil-a-situacao-e-pior-nos-lares-chefiados-por-mulheres-pardas-ou-pretas/",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Seções de apresentação do II VIGISAN e Sobre a pesquisa",
+      "observacao": "A entidade produtora informa 33,1 milhões e coleta entre novembro/2021 e abril/2022. Não é levantamento feito no dia da posse de 2023.",
+      "primaria": true
+    },
+    {
+      "id": "VIGISAN",
+      "orgao": "Rede PENSSAN",
+      "url": "https://redepenssan.org.br/wp-content/uploads/2026/01/Relatorio-II-VIGISAN-2022_compressed.pdf",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "limite_de_tamanho",
+      "localizador": "Relatório II VIGISAN 2022",
+      "observacao": "PDF localizado, mas leitura integral recusada por tamanho. Não tratado como relatório integralmente auditado.",
+      "primaria": true
+    },
+    {
+      "id": "EC123",
+      "orgao": "Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Art. 5º, inciso I",
+      "observacao": "Acréscimo extraordinário mensal de R$ 200 entre agosto e dezembro/2022. Separar valor temporário, nome do programa e continuidade orçamentária.",
+      "primaria": true
+    },
+    {
+      "id": "SANEAMENTO",
+      "orgao": "Ministério das Cidades",
+      "url": "https://www.gov.br/cidades/pt-br/assuntos/saneamento/marco-legal-do-saneamento",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Descrição das leis de 2007 e 2020",
+      "observacao": "A página distingue Lei 11.445/2007 e atualização pela Lei 14.026/2020. Não implica conclusão da universalização.",
+      "primaria": true
+    },
+    {
+      "id": "PL4162",
+      "orgao": "Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2213200",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Ficha de tramitação PL 4162/2019",
+      "observacao": "Ficha legislativa aberta; conferir autoria, texto e sanção ao revisar atribuição de crédito político.",
+      "primaria": true
+    },
+    {
+      "id": "BCFISCAL",
+      "orgao": "Banco Central",
+      "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "pagina_sem_serie_extraivel",
+      "localizador": "Estatísticas fiscais, DBGG",
+      "observacao": "Página aberta, mas série numérica não ficou legível. R$ 11,1 trilhões é dado atribuído às checagens, ainda não reproduzido da tabela do BC.",
+      "primaria": true
+    },
+    {
+      "id": "IBGE2011",
+      "orgao": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9726-em-2011-pib-da-nova-serie-cresceu-3-9-e-chegou-a-r-4-375-trilhoes",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "busca_legivel_abertura_403",
+      "localizador": "Release de 11/03/2015",
+      "observacao": "Busca mostra revisão de 2011 para 3,9%; leitura direta retornou 403. Dado de versão histórica, não série atual certificada.",
+      "primaria": true
+    },
+    {
+      "id": "IBGESERIE",
+      "orgao": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/25921-em-2017-pib-cresce-1-3-e-chega-a-r-6-583-trilhoes",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "busca_legivel_abertura_403",
+      "localizador": "Tabela histórica do release de 08/11/2019",
+      "observacao": "Tabela indexada indica 7,5% em 2010 e 4,0% em 2011. A mudança 3,9%/4,0% é de versões; obter série atual antes de apresentar valor preciso.",
+      "primaria": true
+    },
+    {
+      "id": "FOCUS2022",
+      "orgao": "Banco Central",
+      "url": "https://www.bcb.gov.br/content/focus/focus/R20221007.pdf",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Página 1, cabeçalhos anuais e linha Selic",
+      "observacao": "Colunas anuais de 2022 a 2025; mediana para 2025 de 7,75%. Não há coluna 2026. É expectativa de mercado, não cenário condicionado à vitória de candidato.",
+      "primaria": true
+    },
+    {
+      "id": "FOCUS2023",
+      "orgao": "Banco Central",
+      "url": "https://www.bcb.gov.br/content/focus/focus/R20230113.pdf",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Data e cabeçalhos do PDF",
+      "observacao": "O link apresentado pelo UOL como primeira projeção de janeiro/2025 leva a arquivo datado de 13/01/2023. Referência deve ser corrigida/conferida antes de publicação.",
+      "primaria": true
+    },
+    {
+      "id": "BCSELIC",
+      "orgao": "Banco Central",
+      "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "pagina_sem_serie_extraivel",
+      "localizador": "Histórico de taxas de juros",
+      "observacao": "Página aberta sem tabela legível na extração; taxa vigente não conferida independentemente nesta sessão.",
+      "primaria": true
+    },
+    {
+      "id": "ANA2018",
+      "orgao": "ANA",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/resolucao-da-ana-aprova-rateio-da-agua-do-eixo-leste-do-projeto-de-integracao-do-rio-sao-francisco-com-os-estados-da-paraiba-e-pernambuco",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Notícia de 12/09/2018, parágrafo sobre pré-operação",
+      "observacao": "ANA registra pré-operação do Eixo Leste desde março/2017. Evidência sobre etapa e data, não sobre conclusão integral de todos os ramais em 2026.",
+      "primaria": true
+    },
+    {
+      "id": "MDIC",
+      "orgao": "MDIC",
+      "url": "https://balanca.mdic.gov.br/balanca/publicacoes_dados_consolidados/pg.html",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "busca_legivel_abertura_falhou",
+      "localizador": "Resultados consolidados, tabela anual, US$ FOB milhões",
+      "observacao": "Resultado indexado: 2025, exportações 348.278,5 milhões de dólares. Tabela integral não obtida; não confundir valor nominal, quantum e reais.",
+      "primaria": true
+    },
+    {
+      "id": "NICWIFI",
+      "orgao": "NIC.br / reprodução Gov.br",
+      "url": "https://www.nic.br/noticia/na-midia/mais-de-21-3-mil-pontos-de-internet-do-wi-fi-brasil-sao-instalados/",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Na Mídia, 20/12/2022, origem Gov.br 19/12/2022",
+      "observacao": "Republicação atribuída ao governo, não confirmação independente: 21,3 mil pontos até dezembro/2022. Contagem de instalações não mede funcionamento atual.",
+      "primaria": false
+    },
+    {
+      "id": "GOVWIFI",
+      "orgao": "Ministério das Comunicações",
+      "url": "https://www.gov.br/pt-br/noticias/transito-e-transportes/2022/12/mais-de-21-3-mil-pontos-de-internet-do-wi-fi-brasil-sao-instalados",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "redireciona_login",
+      "localizador": "Notícia original de 19/12/2022",
+      "observacao": "Origem ligada no NIC.br redirecionou a login. Não inferir indisponibilidade global nem contornar restrição.",
+      "primaria": true
+    },
+    {
+      "id": "MEI",
+      "orgao": "Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "LC 128/2008, inclusão do art. 18-A e assinatura",
+      "observacao": "Lei sancionada em 19/12/2008 por Lula institui disciplina do MEI. Sanção não equivale a autoria exclusiva da proposta.",
+      "primaria": true
+    },
+    {
+      "id": "ALERJ",
+      "orgao": "Alerj",
+      "url": "http://alerjln1.alerj.rj.gov.br",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "link_nao_recuperado",
+      "localizador": "PEC estadual 4/2009, votação nominal",
+      "observacao": "Abertura do link citado pelo Aos Fatos falhou sem expor o endereço profundo. Este domínio é apenas pista; obter ata e URL exata. Não constitui evidência consultada.",
+      "primaria": true
+    },
+    {
+      "id": "VIAGENS",
+      "orgao": "CGU / Portal da Transparência",
+      "url": "https://portaldatransparencia.gov.br/viagens?ano=2026",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido_parcial",
+      "localizador": "Viagens governamentais, filtro ano 2026",
+      "observacao": "Página mostra estrutura de viagens de diversos agentes. Não foi reproduzida a soma 2023–2025 nem isolada despesa do casal presidencial.",
+      "primaria": true
+    },
+    {
+      "id": "LEI15358",
+      "orgao": "Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Art. 2º, pena e § 1º, I",
+      "observacao": "Pena de 20 a 40 anos, com aumento por comando/liderança. Distinguir pena cominada de tempo de cumprimento.",
+      "primaria": true
+    },
+    {
+      "id": "CP75",
+      "orgao": "Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Art. 75, caput e §§ 1º–2º",
+      "observacao": "Limite de cumprimento de 40 anos; o § 2º prevê nova unificação por fato posterior. Não apresentar o limite como regra sem exceções.",
+      "primaria": true
+    },
+    {
+      "id": "SV56",
+      "orgao": "STF",
+      "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=3352",
+      "consultado_em": "2026-10-24",
+      "status_acesso": "conteudo_lido",
+      "localizador": "Súmula Vinculante 56 e precedente RE 641.320",
+      "observacao": "Falta de estabelecimento adequado não autoriza regime mais gravoso. O texto descreve parâmetros judiciais, não ordem presidencial de soltura automática.",
+      "primaria": true
+    }
+  ],
+  "nota": "Acesso é separado de confirmação factual. Somente conteúdo explicitamente lido sustenta observações. Não há aprovação humana.",
+  "checagem_urls_iniciais": "Quatro URLs de partida conferidas no navegador: Aos Fatos Globo e Band, UOL AMP e Folha. Todas abriram e corresponderam ao evento. Folha é reportagem sobre Lupa; AMP é variante do UOL.",
+  "consultas_pesquisa": [
+    {
+      "tipo": "checagens originais",
+      "consultas": [
+        "Globo 23 outubro 2026 Lula Flávio checagem",
+        "Band 18 outubro 2026 checamos",
+        "site:aosfatos.org Checamos Globo 2026 23"
+      ]
+    },
+    {
+      "tipo": "evidências específicas",
+      "consultas": [
+        "site.tcu.gov.br obras paralisadas 4215 abril 2026",
+        "site:agenciadenoticias.ibge.gov.br 2011 3,9% PIB",
+        "site:redepenssan.org.br 33,1 2022 relatório",
+        "site:balanca.mdic.gov.br 2025 348,3 bilhões exportações",
+        "site:gov.br Wi-Fi Brasil 21,3 2022"
+      ]
+    },
+    {
+      "tipo": "audiovisual",
+      "consultas": [
+        "Flávio Bolsonaro x Lula 18/10/2026 Band YouTube debate",
+        "site:g1.globo.com 2026/10/23 íntegra debate Lula"
+      ],
+      "resultado": "Gravação exata com trechos temporais não recuperada; sem conferência audiovisual."
+    }
+  ],
+  "exclusoes_editoriais": [
+    "Agregadores e republicações não contam como verificadores independentes.",
+    "Afirmações sobre acusações pessoais e investigações sem documentação primária específica suficiente não foram acrescentadas para preencher quantidade.",
+    "BR-319 e demarcações tiveram pistas consultadas, mas não viraram novos dossiês sem evidência e contexto suficientes."
+  ]
+}

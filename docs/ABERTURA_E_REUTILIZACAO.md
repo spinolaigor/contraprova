@@ -6,10 +6,10 @@ O Contraprova é um projeto público e independente de organização, visualiza�
 O projeto não exige a identificação pública de seu idealizador. A identidade pública é **Contraprova**. O histórico de commits e a propriedade do repositório no GitHub permanecem visíveis conforme o funcionamento da plataforma.
 
 ## Código
-**Licença pretendida: MIT.** O código próprio poderá ser usado, copiado, modificado e redistribuído, inclusive comercialmente, sob os termos da licença. A licença deve ser formalizada em um arquivo LICENSE antes de ser considerada aplicada ao repositório inteiro. Componentes de terceiros conservam suas licenças.
+**Licença aplicada: MIT**, formalizada em `LICENSE`. O código próprio poderá ser usado, copiado, modificado e redistribuído, inclusive comercialmente, sob os termos da licença. Componentes de terceiros conservam suas licenças.
 
 ## Dados próprios
-**Dedicação pretendida: CC0 1.0 Universal** para dados estruturados originais produzidos pelo projeto e que o projeto tenha o direito de disponibilizar. Isso não abrange automaticamente conteúdos de terceiros nem elimina exigências legais aplicáveis. A dedicação será formalizada separadamente, com escopo explícito.
+**Dedicação CC0 1.0 Universal**, formalizada em `data/README.md`, para dados estruturados originais produzidos pelo projeto e que o projeto tenha o direito de disponibilizar. Isso não abrange automaticamente conteúdos de terceiros nem elimina exigências legais aplicáveis.
 
 ## Conteúdo de terceiros
 Textos de checagens, vídeos, fotografias, logotipos e bases externas não são relicenciados pelo Contraprova. Preferir metadados, links e referências precisas; reproduções só quando legalmente permitidas.

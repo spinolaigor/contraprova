@@ -1,5 +1,14 @@
 # Changelog — Contraprova
 
+## [0.7.0] — 2026-10-24 — Pesquisa para revisão e fechamento do guia
+- Preparados 18 dossiês únicos, 21 ocorrências e cinco artigos originais, com vereditos atribuídos, referências primárias e lacunas por item. Nenhum aprovado automaticamente.
+- Preservadas repetições entre eventos e diferenças de metodologia; registradas inconsistências de referências para revisão humana.
+- Conferidos os quatro links iniciais no navegador; guia atualizado com fontes originais da Globo e Band. Folha e UOL AMP funcionam, sem duplicação editorial.
+- Refinados layout estreito, teclado, toque, estados vazios, compartilhamento e data fixa da edição. Rótulos distintos deixam de ser apresentados automaticamente como divergência factual.
+- Pages passa a depender de validação no mesmo workflow e a empacotar somente arquivos públicos; incluído gatilho para fontes.html. Fila de revisão permanece no GitHub.
+- Exportador exige booleano literal nas aprovações; ampliada cobertura para 18 testes. Base publicada continua vazia e inalterada.
+- Atualizados README, contratos, catálogo, política de reutilização e relatórios de entrega/estado. Validação remota documentada após envio.
+
 ## [0.6.0] — 2026-10-24 — Preparação para fechamento eleitoral
 - Criado `WORK.md` com instruções operacionais para auditoria assistida pelo ChatGPT Work.
 - Criado protocolo editorial de verificação e política de encerramento.
